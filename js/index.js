@@ -406,7 +406,7 @@ async function startinsertionsort() {
                         document.getElementById("" + j).innerHTML = a;
                         document.getElementById("" + (j + 1)).innerHTML = b;
                     }
-                }, delay * 1000-100;
+                }, delay * 1000-100);
                 await sleep(delay * 1000 + 200);
             }
         }
@@ -493,7 +493,7 @@ async function partition(low, high) {
                                 document.getElementById("" + x).innerHTML = a;
                                 document.getElementById("" + (i)).innerHTML = b;
                             }
-                        }, delay * 1000);
+                        }, delay * 1000-100);
                         await sleep(delay * 1000 + 200);
                     }
                 }
