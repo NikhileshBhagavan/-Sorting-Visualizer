@@ -193,7 +193,7 @@ async function startbubblesort() {
                                 document.getElementById("" + j).innerHTML = a;
                                 document.getElementById("" + (j + 1)).innerHTML = b;
                             }
-                        }, delay * 1000-100);
+                        }, delay * 1000);
                         await sleep(delay * 1000 + 200);
                     }
                 }
@@ -305,7 +305,7 @@ async function startselectionsort() {
                             document.getElementById("" + i).style.backgroundColor = "#90EE90";
                         }
 
-                    }, delay * 1000-100);
+                    }, delay * 1000);
 
                     await sleep(delay * 1000 + 200);
                 } else {
@@ -406,7 +406,7 @@ async function startinsertionsort() {
                         document.getElementById("" + j).innerHTML = a;
                         document.getElementById("" + (j + 1)).innerHTML = b;
                     }
-                }, delay * 1000-100);
+                }, delay * 1000);
                 await sleep(delay * 1000 + 200);
             }
         }
@@ -493,7 +493,7 @@ async function partition(low, high) {
                                 document.getElementById("" + x).innerHTML = a;
                                 document.getElementById("" + (i)).innerHTML = b;
                             }
-                        }, delay * 1000-100);
+                        }, delay * 1000);
                         await sleep(delay * 1000 + 200);
                     }
                 }
@@ -549,7 +549,7 @@ async function partition(low, high) {
                         document.getElementById("" + (x + 1)).innerHTML = a;
                         document.getElementById("" + high).innerHTML = b;
                     }
-                }, delay * 1000-100);
+                }, delay * 1000);
                 await sleep(delay * 1000 + 200);
             }
         }
@@ -691,7 +691,7 @@ async function merge(l, m, r) {
                                     document.getElementById("" + zz).innerHTML = aaa[zz - j - 1];
                                 }
                             }
-                        }, delay * 1000-100);
+                        }, delay * 1000);
                         await sleep(delay * 1000);
 
 
